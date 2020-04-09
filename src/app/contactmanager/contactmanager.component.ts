@@ -2,8 +2,8 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-contactmanager',
-  templateUrl: './contactmanager.component.html',
-  styleUrls: ['./contactmanager.component.scss']
+  template: '<app-sidenav></app-sidenav>',
+  styles: []
 })
 export class ContactmanagerComponent implements OnInit {
 
