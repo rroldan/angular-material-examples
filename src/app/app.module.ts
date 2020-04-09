@@ -3,18 +3,17 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { ContactmanagerComponent } from './contactmanager/contactmanager.component';
-import { MatCardModule } from '@angular/material/card';
+import { ContactmanagerModule } from './contactmanager/contactmanager.module';
 
 @NgModule({
   declarations: [
-    AppComponent, ContactmanagerComponent
+    AppComponent,
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
-    MatCardModule
+    ContactmanagerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
