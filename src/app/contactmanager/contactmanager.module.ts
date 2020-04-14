@@ -10,9 +10,10 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { AppRoutingModule } from '../app-routing.module';
 import { UserService } from './services/user.service';
 import { HttpClientModule } from '@angular/common/http';
+import { NotesComponent } from './components/notes/notes.component';
 
 @NgModule({
-  declarations: [ ContactmanagerComponent, ToolbarComponent, MainContentComponent, SidenavComponent ],
+  declarations: [ ContactmanagerComponent, ToolbarComponent, MainContentComponent, SidenavComponent, NotesComponent ],
   imports: [
     CommonModule,
     HttpClientModule,
